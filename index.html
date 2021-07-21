@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+   
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-card-conatiner-main">
+        <div class="search-container">
+          <input id="city-input" type="text" value="" autocomplete="nope" placeholder="Search cities, places, locations...">
+        </div>
+        <div class="search-results">
+          <ul class="search-list">
+            <!-- Search results go here -->
+            <!-- <li class="search-result-items">
+              <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+            </li> -->
+          </ul>
+        </div>
+        <div class="weather-card-container">
+          <div class="weather-card">
+            <div class="main-weather">
+                <span class="weather-large"><span id="weather-large"></span>°C</span>
+                <span class="feels-like">feels like <span class="feels-like-value"></span>°C</span>
+              <!-- <object class="weather-img" data="" type=""></object> -->
+            </div>
+            <span class="weather-text"></span>
+            <span class="date"></span>
+            <!-- <div class="min-max">
+              <span class="min-temp">↓<span id="min-temp">26</span>°C</span>
+              <span class="">·</span>
+              <span class="max-temp">↑<span id="max-temp">26</span>°C</span>
+            </div> -->
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
